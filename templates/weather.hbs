@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Page</title>
+    {{>styles}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <div class="col-md-12 col-12 weather-content-right align-items-center justify-content-start city-search">
+                    <div class="search">
+                        <form id="cityForm">
+                            <input type="text" name="city" id="city" placeholder="Enter Your City Name">
+                            <button class="btn-submit" id="btn-submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="display">
+                        <div class="date-time">
+                            <p id="month">23 March</p>
+                            <p id="day">Tuesday</p>
+                        </div>
+                        <div class="output">
+                            <p id="outputCity">Get Temperature Here</p>
+                            <div class="hidden-layer">
+                                <h1 class="temperature"><span id="temp">24</span><sup>o</sup>C</h1>
+                                <h1 class="temperature-icon" id="tempIcon"><i class="fa fa-cloud"></i></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+    {{>scripts}}
+    <script src="javascripts/weather.js"></script>
+</html>
