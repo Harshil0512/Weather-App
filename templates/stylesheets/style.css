@@ -188,7 +188,7 @@ footer p {
 
 .display .hidden-layer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     visibility: hidden;
 }
 
@@ -226,7 +226,7 @@ sup {
         font-size: 4rem;
     }
     sup {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
@@ -244,6 +244,6 @@ sup {
         font-size: 4rem;
     }
     sup {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
