@@ -220,7 +220,7 @@ sup {
         margin: 0rem 0rem 5rem 0rem;
     }
     .weather-content-right {
-        height: 100% auto;
+        height: auto;
         margin-top: 3px;
     }
     .city-search,
